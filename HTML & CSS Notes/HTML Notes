@@ -1,0 +1,58 @@
+HTML Notes
+
+Semantics within HTML - practice of giving the content on the page meaning and structure by using the proper element. 
+
+Divs and Spans
+ - Have no Semantic Value. They exist for styling purposes. 
+ - They are simply containers. 
+
+ Blocks vs. Inline Elements
+ - Block-level elements begin on a new line, stacking one on top of the other, and occupy any available width. Block-level elements may be nested inside one another and may wrap inline-level elements. We’ll most commonly see block-level elements used for larger pieces of content, such as paragraphs.
+ - Inline-level elements do not begin on a new line. They fall into the normal flow of a document, lining up one after the other, and only maintain the width of their content. Inline-level elements may be nested inside one another; however, they cannot wrap block-level elements. We’ll usually see inline-level elements with smaller pieces of content, such as a few words.
+
+Divs: 
+- Block level element used to identify large groupings of elements. 
+
+Spans:
+- Inline-level element used to identify smaller groupings of text within a block element.
+
+Headings:
+- Block level elements.
+- Be sure to use semantically, and not just to make bold text.
+- To add background color, add a span within the <h>
+
+Paragraphs
+- Block level elements for regular text.
+
+Strong & B
+- Bold text, inline level
+- Use strong for very prominent items.
+- Use b for more casual inline bolded items. 
+
+EM and I
+- Same as above. EM for more emphasis. 
+
+Building Structure
+- HTML5 has structurarly based elements.
+	- header, nav, article, section, aside and footer
+
+Header
+- Top of the body.
+- Not to be confused with Head. Header falls within the BODY of the page. 
+- Head element is not actually displayed on the page. It outlines metadata. 
+
+Nav
+- Used for primary navigation sections only. 
+
+Article
+- Used to identify independent, self-contained content. Blog posts, newspaper articles, etc. 
+
+Section
+- Used for a thematic grouping of content. Maybe a group of articles. 
+
+Article, section, or Div
+- Reserve div for block styling purposes. 
+
+Aside
+- holds content, such as sidebars, inserts, or brief explanations, that is tangentially related to the content surrounding it. 
+- Block element, so it needs to be positioned by developer appropriately. 
